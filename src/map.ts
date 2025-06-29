@@ -5,8 +5,6 @@ const users: User[] = [
   { id: 2, name: 'Bob' },
 ];
 
-// ["Alice", "Bob"] を出力してください
-
 const names = users.map((user) => user.id);
 console.log(names); */
 
@@ -26,7 +24,7 @@ const nums = [1, 2, 3, 4];
 const num = nums.map((n) => n * 2);
 console.log(num);
 
-// 以下の配列から、奇数の数だけを3倍にして返してください。
+//奇数だけを3倍
 /*const nums2 = [1, 2, 3, 4, 5];
 const num2 =
   nums2.filter((n2) => n2 % 2 === 1);
