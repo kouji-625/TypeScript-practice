@@ -28,5 +28,3 @@ console.log(filteredUsers);//[{ id: 2, name: 'Bob' }]
 users.forEach((user) => {
     console.log('${user.name}さんのIDは${user.id}です');
 });
-// AliceさんのIDは1です
-// BobさんのIDは2です
